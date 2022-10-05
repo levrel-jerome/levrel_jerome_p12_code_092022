@@ -1,0 +1,39 @@
+.all-content {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    display: flex;
+    height: 100%;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    width: 100%;
+    align-items: center;
+}
+
+.image-logo img {
+    width: 178px;
+    height: 60px;
+    margin: 18px 0px 9px 28px;
+}
+
+.liens {
+    width: 90%;
+}
+
+.liens ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 0px;
+}
+
+.navigation ul li {
+    font-size: 24px;
+}
