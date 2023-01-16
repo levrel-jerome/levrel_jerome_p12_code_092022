@@ -16,9 +16,9 @@ const Hello = () =>  {
     return (
         <div className='hello'>
             {data &&
-            <h1>Bonjour {data.userInfos.firstName}</h1>
+            <h1>Bonjour <span className='name'>{data.userInfos.firstName}</span></h1>
             }
-           <p>Vous avez explosez vos objectifs hier</p>
+           <p>Félicitation ! Vous avez explosé vos objectifs hier 👏</p>
         </div>
     );
 };

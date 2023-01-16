@@ -1,0 +1,19 @@
+.radar {
+    background: #282D30;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.0212249);
+    border-radius: 5px;
+}
+
+.performance {
+    width: 330px;
+    height: 250px;
+    border-radius: 5px;
+}
+
+.radar-key {
+    color: white;
+}
+
+.radar-value {
+    background: rgba(255, 1, 1, 0.7);
+}

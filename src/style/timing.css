@@ -1,0 +1,30 @@
+.session-timing {
+    background-color: red;
+    width: 330px;
+    height: 250px;
+    border-radius: 5px;
+}
+
+.line {
+    background:rgba(255, 255, 255, 0.4032) rgba(255, 255, 255, 1);
+}
+
+.custom-tooltip-session{
+    background-color: white;
+}
+
+.custom-tooltip-session p{
+    color: black;
+    padding: 10px;
+}
+
+.entete-session {
+    position: absolute;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}

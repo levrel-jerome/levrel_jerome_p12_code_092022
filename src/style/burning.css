@@ -1,0 +1,45 @@
+.burning {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.burning-block {
+    display: flex;
+    background-color: 
+    rgba(251, 251, 251, 1);
+    height: 124px;
+}
+
+.burning-image {
+    display: flex;
+    width: 40%;
+}
+
+.burning-image img {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: auto;
+    height: 60px;
+    width: 60px;
+}
+
+.burning-text {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    justify-content: center;
+}
+
+.burning-text h1{
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.burning-text p{
+    font-size: 20px;
+    margin-top: 5px;
+    font-size: 14px;
+}
+

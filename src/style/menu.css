@@ -1,11 +1,14 @@
 .menu {
-    width: 8%;
-    height: 100%;
     background-color: black;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 120px;
+    z-index: -1;
 }
 
 .menu img {

@@ -1,0 +1,35 @@
+.activity-day{
+    background-color: #FBFBFB;
+    width: 1100px;
+    margin-left: 110px;
+}
+
+.info-activity {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-activity ul {
+    display: flex;
+}
+
+.info-activity li {
+    padding-left: 20px;
+}
+
+.info-activity span{
+    margin-right: 10px;
+}
+
+.custom-tooltip {
+    height: 100%;
+    background-color: 
+    rgba(230, 0, 0, 1);
+    border: none;
+    color: white;
+}
+
+.custom-tooltip p{
+    margin: 0px;
+    padding: 12px;
+}
