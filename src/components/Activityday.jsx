@@ -14,28 +14,37 @@ const CustomTooltip = ({ active, payload }) => {
 
   return null;
 };
-
+/*function to get api information user and display those information into rechart element*/
 const Activityday = () => {
 
     const [data, setData] = useState();
+    const [error, setError] = useState(null);
 
     useEffect(() => {
         const id = new URL(window.location).searchParams.get("id") || 12
         getActivityDay(id)
        .then((userActivity) => {
+        if(!userActivity) {
+          throw Error("this user id doesn't exist");
+        }
         setData(userActivity)
        })
-    }, [])
+       .catch(err => {
+        setError(err.message)
+       })
+      }, [])
 
     return (
         <div className='activity-day'>
+          {error && <p className='error-message'> {error} </p>}
+          {!error &&
           <div className='info-activity'>
           <p>Activité quotidienne</p>
           <ul>
             <li><span><img src='/asset/oval.png' alt=''/></span>Poids(kg)</li>
             <li><span><img src='/asset/ovalred.png' alt=''/></span>Calorie brulées(kCal)</li>
           </ul>
-          </div>
+          </div>}
             {data &&
             <BarChart
             width={1100}

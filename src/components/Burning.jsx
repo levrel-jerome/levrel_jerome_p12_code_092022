@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { getUser } from '../services/user';
 
+
+/*function to get api information user and display those information with the image*/
 const Burning = () => {
 
     const [data, setData] = useState();
